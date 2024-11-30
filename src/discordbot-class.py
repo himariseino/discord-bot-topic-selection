@@ -52,7 +52,9 @@ class DiscordBot:
                 You are given the following script:
                 - script: {command_content}
                 
-                Understand this script and create more than 5 next class discussion's theme.
+                Instruction for the LLM:
+                Based on the script provided above, propose 5 to 10 discussion topics for the next session. 
+                Ensure the topics are directly relevant to the content and themes of the script, while also encouraging insightful and productive dialogue.
                 """
             )
             # チェーンに入力を与え，LLMによる推論を実行
